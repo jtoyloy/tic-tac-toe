@@ -1,7 +1,13 @@
-console.log('Your JS is linked up. Be the person you needed when you were little.')
+let squares = document.getElementsByClassName('square')
+console.log(squares)
 
-/*----- constants -----*/
-/*----- app's state (variables) -----*/
-/*----- cached element references -----*/
-/*----- event listeners -----*/
-/*----- functions -----*/
+let board = document.getElementById('board')
+console.log(board)
+
+let handleClick = () => {
+    // do stuff
+    console.log('clicked!')
+    
+}
+
+board.addEventListener('click'.handleClick)
